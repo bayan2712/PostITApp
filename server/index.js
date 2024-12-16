@@ -9,6 +9,8 @@ import { fileURLToPath } from "url";
 import { dirname } from "path";
 import fs from "fs";
 import path from "path";
+import * as ENV from "config.js";
+
 
 const app = express();
 app.use(express.json());
